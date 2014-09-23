@@ -1,0 +1,32 @@
+{
+    "name": "devrun-smart/devrun-smart",
+    "description": "Devrun Smart",
+    "minimum-stability": "stable",
+	"keywords": ["framework", "mvc", "devrun"],
+	"homepage": "http://nette.org",
+	"license": "proprietary",
+	"authors": [
+		{
+			"name": "Pavel Paulík",
+			"homepage": "http://pavelpaulik.cz"
+		}
+	],
+	"require": {
+        "nette/nette": "v2.2.3",
+        "kdyby/elastic-search": "dev-master",
+        "kdyby/doctrine": "v2.1.0",
+        "janmarek/webloader": "2.2.0",
+        "ckeditor/ckeditor": "4.4.1",
+        "dg/adminer-custom": "v1.4.0",
+        "phpunit/phpunit": "3.7.*",
+        "dg/dibi": "v2.2.2",
+        "o5/grido": "2.0.3",
+        "sakren/nette-menu": "1.0.4",
+        "kdyby/translation": "v2.0.3",
+        "symfony/property-access": "~2.5"
+
+    },
+	"require-dev": {
+        "nette/tester": "~1.2.0"
+	}
+}
